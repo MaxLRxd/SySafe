@@ -4,3 +4,52 @@
     --back-color:#FFFFFF;
     --text-color: #A8B0B9;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    background-image: url(recursos/logo.jpg);
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    height: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(recursos/logo.jpg);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main{
+    margin-top: 450px;
+
+}
